@@ -1,0 +1,22 @@
+{
+  "hotelName": "Holo Hotel",
+  "hotelURL": "https://holohotel.ca/",
+  "minRank": "3",
+  "profiles": "home/",
+  "commandPrefix": ":",
+  "newsArticleLink": "community/articles/",
+  "mysql": {
+    "username": "Layne",
+    "host": "",
+    "password": "",
+    "database": "",
+    "query": {
+      "news": "SELECT id FROM cms_news ORDER BY date DESC"
+    }
+  },
+  "discord": {
+    "bot_secret_token": "",
+    "bot_image": "https://holohotel.ca/images/karen.gif",
+    "game": "holohotel.ca"
+  }
+}
